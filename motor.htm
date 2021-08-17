@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Panal</title>
+   <style>
+	*{
+	text-align: center;
+	font-size: 20px;
+
+	}
+input{
+width: 200px;
+height: 40px;
+
+}
+	</style>
+   <link rel="stylesheet" href="style.css">   
+   
+</head>
+
+<body>
+ 
+    
+    <div class = "slideContainer">  
+
+        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        <form  action="index.php" method = "POST" target="dummyframe">
+<table style="width:60%">
+  <tr>
+    <th>  </th>
+    <th>  </th> 
+    <th>  </th>
+  </tr>
+       <tr>
+    <td> <h2> <em>Move 1</em></h2></td>
+        <div class = "Move1">
+       <td>  <input type="range" min = "0" max = "180" value="90" id = "myRange1" class = "slider" name = "v1" ></td>
+      <td>   <p>Value: <span id = "value1"></span></p></td>
+        </tr> </div>
+
+        <br>
+
+      <tr>
+    <td>  <h2><em>Move 2</em></h2></td>
+        <div class = "Move2">
+       <td>  <input type="range" min = "0" max = "180" value="90" id = "myRange2" class = "slider" name = "v2"></td>
+       <td>  <p>Value: <span id = "value2"></span></p></td>
+       </tr>  </div>
+
+        <br>
+        
+        <tr>
+    <td><h2><em>Move 3</em></h2>
+        <div class = "Move3">
+        <td> <input type="range" min = "0" max = "180" value="90" id = "myRange3" class = "slider" name = "v3">
+        <td> <p>Value: <span id = "value3"></span></p>
+       </tr>  </div>
+
+        <br>
+        
+       <tr>
+    <td> <h2><em>Move 4</em></h2>
+        <div class = "Move4">
+       <td>  <input type="range" min = "0" max = "180" value="90" id = "myRange4" class = "slider" name = "v4">
+       <td>  <p>Value: <span id = "value4"></span></p>
+       </tr>  </div>
+
+        <br>
+       
+       <tr>
+    <td> <h2><em>Move 5</em></h2></td>
+        <div class = "Move5">
+        <td> <input type="range" min = "0" max = "180" value="90" id = "myRange5" class = "slider" name = "v5"></td>
+        <td> <p>Value: <span id = "value5"></span></p></td>
+        </tr> </div>
+
+        <br>
+        
+        <tr>
+    <td><h2><em>Move 6</em></h2></td>
+        <div class = "Move6">
+         <td><input type="range" min = "0" max = "180" value="90" id = "myRange6" class = "slider" name = "v6"></td>
+         <td><p>Value: <span id = "value6"></span></p></td>
+        </tr> </div>
+  <tr>
+  <td></td>
+      <td>   <input type="button"  value="save" name = "save" style="color:white ; font-size: 20px; background: rgb(159, 131, 111) ; border-radius: 20px;"></td>
+     <td>   <input type="button"  value="run" style="color:white ; font-size: 20px; background:rgb(159, 131, 111); border-radius: 40px;"></td>
+ </tr>
+        </form>
+    
+    </div>
+</body>
+
+<script src="main.js"></script>
+
+
+</html>

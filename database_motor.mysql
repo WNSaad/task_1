@@ -1,0 +1,11 @@
+
+CREATE DATABASE robot_db;
+ 
+ 
+ create table motors(
+  motor1 int,
+ motor2 int,
+  motor3 int,
+  motor4 int,
+  motor5 int,
+ motor6 int);
